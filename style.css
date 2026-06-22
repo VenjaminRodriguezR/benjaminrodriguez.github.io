@@ -92,8 +92,11 @@ a {
 }
 
 .profile-photo {
+  display: block;
   width: 160px;
   height: 160px;
+  max-width: 160px;
+  max-height: 160px;
   object-fit: cover;
   border-radius: 50%;
   border: 4px solid white;
