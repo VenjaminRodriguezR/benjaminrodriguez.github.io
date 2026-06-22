@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background: #f7f7f7;
+  line-height: 1.6;
+}
+
+.hero {
+  background: #111827;
+  color: white;
+  padding: 80px 12%;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.2rem;
+}
+
+.hero h2 {
+  font-weight: 400;
+  color: #d1d5db;
+}
+
+.hero p {
+  max-width: 800px;
+  font-size: 1.1rem;
+}
+
+.links a {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 10px 16px;
+  background: white;
+  color: #111827;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+main {
+  padding: 40px 12%;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h2 {
+  border-bottom: 2px solid #111827;
+  padding-bottom: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.grid div,
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.project-card {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #1d4ed8;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 8%;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  main {
+    padding: 30px 8%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
