@@ -1,131 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Benjamin Rodríguez Romo | Biomedical Data Scientist</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="hero">
-    <img 
-      src="assets/picture.jpg" 
-      alt="Profile picture of Benjamin Rodríguez Romo" 
-      class="profile-photo"
-      style="width:160px; height:160px; object-fit:cover; border-radius:50%;"
-    />
-    <h1>Benjamín Rodríguez Romo</h1>
-    <h2>Biomedical Data Scientist | Bioengineer | Computer Engineer</h2>
-    <p>
-        I build computational tools for biomedical data analysis, medical imaging,
-        3D reconstruction, biomechanics, finite element modeling, and machine learning.
-    </p>
-    <div class="links">
-        <a href="#projects">Projects</a>
-        <a href="assets/cv.pdf">Download CV</a>
-        <a href="https://github.com/VenjaminRodriguezR">GitHub</a>
-        <a href="https://www.linkedin.com/in/benjamín-rodríguez-romo-865b48230/">LinkedIn</a>
-    </div>
-    </header>
-
-  <main>
-    <section id="about">
-      <h2>About</h2>
-      <p>
-        I am a Bioengineer specialized in systems and data, with experience in experimental work and
-data science analysis. I have skills in experimental and computational techniques for
-manufacturing, biomechanical testing and analysis of hard and soft tissues, and developing
-artificial intelligence models and pipelines for process improvement. I stand out for my ability to
-adapt, analyze, and solve problems, with a focus on process optimization and management
-using digital tools and technology.
-      </p>
-    </section>
-
-    <section id="skills">
-      <h2>Technical Skills</h2>
-      <div class="grid">
-        <div>
-          <h3>Programming & Data</h3>
-          <p>Python, R, SQL, C</p>
-        </div>
-        <div>
-          <h3>Machine Learning</h3>
-          <p>PyTorch, scikit-learn, biomedical image analysis, segmentation metrics</p>
-        </div>
-        <div>
-          <h3>Medical Imaging & 3D</h3>
-          <p>3D Slicer, ImageJ, VTK, Open3D, SciPy, scikit-image, MRI, microCT, X-ray</p>
-        </div>
-        <div>
-          <h3>Biomechanics & FEM</h3>
-          <p>Abaqus, mechanical testing, biomaterials, compression, bending, tensile testing</p>
-        </div>
-      </div>
-    </section>
-
-        <section id="projects">
-      <h2>Featured Projects</h2>
-
-      <article class="project-card">
-        <h3>Biomedical CSV Explorer</h3>
-        <p>
-          Interactive web app for exploratory analysis of biomedical tabular datasets,
-          including missing-value analysis, correlations, PCA, Random Forest feature
-          importance, heatmaps, and customizable scatter plots.
-        </p>
-        <p><strong>Stack:</strong> Python, Streamlit, pandas, scikit-learn, Plotly</p>
-        <p>
-          <a href="https://biomedical-csv-explorer.streamlit.app/">Live demo</a> |
-          <a href="https://github.com/VenjaminRodriguezR/Biomedical-CSV-explorer">GitHub repo</a>
-        </p>
-      </article>
-    </section>
-
-
-    <section id="experience">
-      <h2>Experience</h2>
-
-      <h3>EMPA – Swiss Federal Laboratories for Materials Science and Technology</h3>
-      <p>Intern, 2026–2027</p>
-      <ul>
-        <li>Statistical and machine learning analysis.</li>
-        <li>Finite element modeling using Abaqus.</li>
-        <li>Python programming and sample preparation.</li>
-      </ul>
-
-      <h3>Rush University Medical Center – Biomechanics Department</h3>
-      <p>Exchange Research Student, 2025</p>
-      <ul>
-        <li>Statistical shape models.</li>
-        <li>3D model alignment and analysis.</li>
-        <li>Python programming.</li>
-      </ul>
-
-      <h3>B3MAT Research Group, Bioengineering Center, UAI</h3>
-      <p>Research Assistant, 2022–2025</p>
-      <ul>
-        <li>Mechanical testing and analysis of biomaterials.</li>
-        <li>3D manufacturing and biomedical image processing.</li>
-        <li>Support for R&D projects and laboratory management.</li>
-      </ul>
-    </section>
-
-    <section id="publications">
-      <h2>Publications & Conferences</h2>
-      <ul>
-        <li>ICPRS 2025 — CAMAlyzer: AI segmentation and 3D femur model generation. First author.</li>
-        <li>ORS 2025 — MRI automatic segmentation and 3D femoral head model generation. First author.</li>
-        <li>ORS 2026 — Tibial cartilage deformation after activity via MRI. Second author.</li>
-        <li>IEEE JBHI — CAMalyzer automated MRI-based 3D Slicer framework. First author, under review.</li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: benjaminrodriguezromo@gmail.com</p>
-      <p>GitHub: <a href="https://github.com/VenjaminRodriguezR">VenjaminRodriguezR</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/benjamín-rodríguez-romo-865b48230/">Benjamin Rodríguez Romo</a></p>
-    </section>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Benjamín Rodríguez Romo — biomedical data scientist and computational bioengineer working across medical imaging, machine learning, 3D analysis, computational biomechanics, and scientific software." />
+    <meta name="theme-color" content="#0b1220" />
+    <meta property="og:title" content="Benjamín Rodríguez Romo | Biomedical Data Scientist" />
+    <meta property="og:description" content="Biomedical imaging, machine learning, computational biomechanics, 3D analysis, and scientific software." />
+    <title>Benjamín Rodríguez Romo | Biomedical Data Scientist</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

@@ -1,0 +1,20 @@
+{
+  "name": "benjamin-rodriguez-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "fetch-projects": "node scripts/fetch-github-projects.mjs",
+    "prebuild": "node scripts/fetch-github-projects.mjs",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "latest",
+    "lucide-vue-next": "latest",
+    "vite": "latest",
+    "vue": "latest"
+  },
+  "devDependencies": {}
+}
