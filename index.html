@@ -3,439 +3,129 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta
-    name="description"
-    content="Portfolio of Benjamín Rodríguez Romo, biomedical data scientist and computational bioengineer working in biomedical imaging, machine learning, computational biomechanics, 3D analysis, and scientific software."
-  />
-  <meta name="theme-color" content="#0b1220" />
-  <title>Benjamín Rodríguez Romo | Biomedical Data Scientist & Computational Bioengineer</title>
+  <title>Benjamin Rodríguez Romo | Biomedical Data Scientist</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
-
-  <header class="site-header">
-    <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="#top" aria-label="Benjamín Rodríguez Romo home">BR</a>
-      <div class="nav-links">
-        <a href="#expertise">Expertise</a>
+  <header class="hero">
+    <img 
+      src="assets/picture.jpg" 
+      alt="Profile picture of Benjamin Rodríguez Romo" 
+      class="profile-photo"
+      style="width:160px; height:160px; object-fit:cover; border-radius:50%;"
+    />
+    <h1>Benjamín Rodríguez Romo</h1>
+    <h2>Biomedical Data Scientist | Bioengineer | Computer Engineer</h2>
+    <p>
+        I build computational tools for biomedical data analysis, medical imaging,
+        3D reconstruction, biomechanics, finite element modeling, and machine learning.
+    </p>
+    <div class="links">
         <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
-  </header>
+        <a href="assets/cv.pdf">Download CV</a>
+        <a href="https://github.com/VenjaminRodriguezR">GitHub</a>
+        <a href="https://www.linkedin.com/in/benjamín-rodríguez-romo-865b48230/">LinkedIn</a>
+    </div>
+    </header>
 
-  <main id="main-content">
-    <section class="hero" id="top">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Biomedical data · Computational biomechanics · Scientific software</p>
-          <h1>Benjamín Rodríguez Romo</h1>
-          <p class="hero-title">Biomedical Data Scientist & Computational Bioengineer</p>
-          <p class="hero-summary">
-            MSc in Bioengineering with degrees in Bioengineering and Computer Engineering.
-            I develop computational workflows for biomedical imaging, machine learning,
-            3D anatomical analysis, finite-element simulation, and interactive scientific visualization.
-          </p>
-
-          <div class="hero-actions" aria-label="Profile links">
-            <a class="button button-primary" href="#projects">View selected work</a>
-            <a class="button button-secondary" href="assets/cv.pdf">Download CV</a>
-            <a class="text-link" href="https://github.com/VenjaminRodriguezR" target="_blank" rel="noreferrer">GitHub ↗</a>
-            <a class="text-link" href="https://www.linkedin.com/in/benjamín-rodríguez-romo-865b48230/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-          </div>
-
-          <div class="hero-meta">
-            <span>Dübendorf, Switzerland</span>
-            <span>Research Intern · Empa</span>
-          </div>
-        </div>
-
-        <div class="hero-visual">
-          <div class="portrait-frame">
-            <img
-              src="assets/picture.png"
-              alt="Portrait of Benjamín Rodríguez Romo"
-              class="profile-photo"
-            />
-          </div>
-          <div class="current-card">
-            <span class="status-dot" aria-hidden="true"></span>
-            <div>
-              <strong>Current focus</strong>
-              <p>Biomechanical simulation automation, quantitative post-processing, and research visualization.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am a Bioengineer specialized in systems and data, with experience in experimental work and
+data science analysis. I have skills in experimental and computational techniques for
+manufacturing, biomechanical testing and analysis of hard and soft tissues, and developing
+artificial intelligence models and pipelines for process improvement. I stand out for my ability to
+adapt, analyze, and solve problems, with a focus on process optimization and management
+using digital tools and technology.
+      </p>
     </section>
 
-    <section class="section intro-section" id="about">
-      <div class="container intro-grid">
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="grid">
         <div>
-          <p class="section-kicker">Profile</p>
-          <h2>Engineering across data, anatomy, and mechanics</h2>
+          <h3>Programming & Data</h3>
+          <p>Python, R, SQL, C</p>
         </div>
-        <div class="intro-copy">
-          <p>
-            My work sits at the intersection of biomedical data science and engineering: turning images,
-            experimental measurements, geometric models, and simulations into reproducible quantitative workflows.
-            I combine Python-based scientific computing with domain knowledge in biomechanics, biomaterials,
-            medical imaging, and finite-element analysis.
-          </p>
-          <p>
-            I am particularly interested in research and R&amp;D problems where analysis pipelines need to be
-            automated, validated, visualized, and converted into interpretable results for scientific decisions.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt" id="expertise">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="section-kicker">Core expertise</p>
-            <h2>Technical profile</h2>
-          </div>
-          <p>Four areas that define most of my current research and software work.</p>
-        </div>
-
-        <div class="expertise-grid">
-          <article class="expertise-card">
-            <span class="card-index">01</span>
-            <h3>Biomedical Imaging &amp; 3D Analysis</h3>
-            <p>CT/MRI segmentation, 3D reconstruction, anatomical morphology, geometric analysis, model manipulation, and visualization.</p>
-            <div class="tags">
-              <span>3D Slicer</span><span>VTK</span><span>Open3D</span><span>ImageJ</span><span>scikit-image</span>
-            </div>
-          </article>
-
-          <article class="expertise-card">
-            <span class="card-index">02</span>
-            <h3>Computational Biomechanics</h3>
-            <p>Finite-element model development, automated simulation studies, mechanical result extraction, and biomechanical interpretation.</p>
-            <div class="tags">
-              <span>Abaqus/Explicit</span><span>FEM</span><span>Mechanics</span><span>Biomechanics</span>
-            </div>
-          </article>
-
-          <article class="expertise-card">
-            <span class="card-index">03</span>
-            <h3>Machine Learning &amp; Scientific Computing</h3>
-            <p>Statistical analysis, machine-learning workflows, biomedical data processing, segmentation, and quantitative model evaluation.</p>
-            <div class="tags">
-              <span>Python</span><span>PyTorch</span><span>SciPy</span><span>scikit-learn</span><span>SQL</span>
-            </div>
-          </article>
-
-          <article class="expertise-card">
-            <span class="card-index">04</span>
-            <h3>Scientific Software &amp; Visualization</h3>
-            <p>Automation pipelines, interactive dashboards, research tooling, reproducible processing, and scientific visualization.</p>
-            <div class="tags">
-              <span>Streamlit</span><span>Trame</span><span>Git</span><span>LaTeX</span><span>Azure</span>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="projects">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="section-kicker">Selected work</p>
-            <h2>Featured projects</h2>
-          </div>
-          <p>Projects are organized around the research problem solved, not only the software used.</p>
-        </div>
-
-        <div class="projects-grid">
-          <article class="project-card project-card-featured">
-            <div class="project-topline">
-              <span class="project-type">Computational biomechanics</span>
-              <span class="project-year">2026</span>
-            </div>
-            <h3>Automated Abaqus Simulation &amp; Analysis Pipeline</h3>
-            <p>
-              Python-based workflow for executing and monitoring biomechanical finite-element simulations,
-              detecting failures, extracting ODB results, and producing quantitative post-processing for
-              model comparison and parameter studies.
-            </p>
-            <ul class="project-points">
-              <li>Automated execution, monitoring, failure diagnosis, and result extraction.</li>
-              <li>Interactive visualization of kinematic, mechanical, energetic, and geometric outputs.</li>
-              <li>Designed for reproducible simulation studies and rapid comparison of model configurations.</li>
-            </ul>
-            <div class="tags">
-              <span>Python</span><span>Abaqus/Explicit</span><span>ODB</span><span>Streamlit</span><span>Trame</span><span>VTK</span>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-topline">
-              <span class="project-type">Medical imaging · AI</span>
-              <span class="project-year">2025–2026</span>
-            </div>
-            <h3>CAMalyzer</h3>
-            <p>
-              Automated MRI-based workflow and 3D Slicer extension for AI-assisted segmentation,
-              proximal femur 3D model generation, and quantitative morphology analysis.
-            </p>
-            <div class="project-links">
-              <a href="https://doi.org/10.1109/ICPRS66293.2025.11302867" target="_blank" rel="noreferrer">ICPRS publication ↗</a>
-            </div>
-            <div class="tags">
-              <span>3D Slicer</span><span>Python</span><span>PyTorch</span><span>MRI</span><span>3D reconstruction</span>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-topline">
-              <span class="project-type">3D anatomy · Morphometrics</span>
-              <span class="project-year">2025</span>
-            </div>
-            <h3>Statistical Shape &amp; Anatomical Analysis</h3>
-            <p>
-              Python workflows for 3D anatomical model alignment, correspondence, statistical shape modeling,
-              cartilage thickness estimation, and automated extraction of geometric anatomical measurements.
-            </p>
-            <div class="tags">
-              <span>Python</span><span>Statistical shape models</span><span>3D geometry</span><span>3D Slicer</span>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-topline">
-              <span class="project-type">Data science · Web app</span>
-              <span class="project-year">Open source</span>
-            </div>
-            <h3>Biomedical CSV Explorer</h3>
-            <p>
-              Interactive application for exploratory analysis of biomedical tabular datasets, including
-              missing-value analysis, correlations, PCA, Random Forest feature importance, heatmaps, and
-              configurable scatter plots.
-            </p>
-            <div class="project-links">
-              <a href="https://biomedical-csv-explorer.streamlit.app/" target="_blank" rel="noreferrer">Live demo ↗</a>
-              <a href="https://github.com/VenjaminRodriguezR/Biomedical-CSV-explorer" target="_blank" rel="noreferrer">GitHub ↗</a>
-            </div>
-            <div class="tags">
-              <span>Streamlit</span><span>pandas</span><span>scikit-learn</span><span>Plotly</span>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt" id="experience">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="section-kicker">Experience</p>
-            <h2>Research trajectory</h2>
-          </div>
-          <p>From experimental biomaterials to 3D anatomy, AI, and computational mechanics.</p>
-        </div>
-
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="timeline-meta">
-              <span>Feb 2026 – Jan 2027</span>
-              <span>Dübendorf, Switzerland</span>
-            </div>
-            <div class="timeline-body">
-              <p class="role">Research Intern · Biomedical Engineering &amp; Structural Mechanics Group</p>
-              <h3>Empa — Swiss Federal Laboratories for Materials Science and Technology</h3>
-              <ul>
-                <li>Apply statistical and machine-learning methods to biomechanical and experimental datasets.</li>
-                <li>Develop and evaluate finite-element models in Abaqus/Explicit.</li>
-                <li>Build Python pipelines for simulation execution, monitoring, failure detection, ODB extraction, and quantitative post-processing.</li>
-                <li>Design interactive dashboards for model setup, monitoring, visualization, and parameter-study interpretation.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="timeline-item">
-            <div class="timeline-meta">
-              <span>Jun 2025 – Jul 2025</span>
-              <span>Chicago, USA</span>
-            </div>
-            <div class="timeline-body">
-              <p class="role">Exchange Research Student · Biomechanics Department</p>
-              <h3>Rush University Medical Center</h3>
-              <ul>
-                <li>Developed Python workflows for alignment, correspondence, and quantitative analysis of 3D anatomical models.</li>
-                <li>Applied statistical shape models to morphology-based analyses.</li>
-                <li>Estimated cartilage thickness and automated extraction of anatomical measurements.</li>
-                <li>Developed customized 3D Slicer extensions for image processing, analysis, and visualization.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="timeline-item">
-            <div class="timeline-meta">
-              <span>Mar 2022 – Dec 2025</span>
-              <span>Viña del Mar, Chile</span>
-            </div>
-            <div class="timeline-body">
-              <p class="role">Research Assistant · B3MAT Research Group</p>
-              <h3>Bioengineering Center, Universidad Adolfo Ibáñez</h3>
-              <ul>
-                <li>Performed mechanical testing and quantitative characterization of biomaterials and additively manufactured structures.</li>
-                <li>Processed micro-CT, MRI, and X-ray data for biomedical imaging and 3D reconstruction.</li>
-                <li>Designed and manufactured experimental samples using CAD and additive manufacturing.</li>
-                <li>Supported multidisciplinary R&amp;D projects and supervised undergraduate research work.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="timeline-item timeline-item-compact">
-            <div class="timeline-meta">
-              <span>Aug 2022 – Dec 2024</span>
-              <span>Chile</span>
-            </div>
-            <div class="timeline-body">
-              <p class="role">Teaching Assistant · Faculty of Engineering and Sciences</p>
-              <h3>Universidad Adolfo Ibáñez</h3>
-              <p>
-                Supported undergraduate and postgraduate teaching in data science, bioinformatics,
-                biomechanics, biomaterials, bioprocesses, engineering, and experimental biomaterials methods.
-              </p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="education">
-      <div class="container split-layout">
         <div>
-          <p class="section-kicker">Education</p>
-          <h2>Academic background</h2>
-          <div class="education-list">
-            <article>
-              <div>
-                <h3>MSc in Bioengineering</h3>
-                <p>Universidad Adolfo Ibáñez</p>
-              </div>
-              <div class="education-meta">
-                <span>2023–2026</span>
-                <span>GPA 6.6 / 7.0 · Thesis 7.0 / 7.0</span>
-              </div>
-            </article>
-            <article>
-              <div>
-                <h3>Professional Degree in Bioengineering</h3>
-                <p>Universidad Adolfo Ibáñez</p>
-              </div>
-              <div class="education-meta"><span>2019–2026</span></div>
-            </article>
-            <article>
-              <div>
-                <h3>Professional Degree in Computer Engineering</h3>
-                <p>Universidad Adolfo Ibáñez</p>
-              </div>
-              <div class="education-meta"><span>2019–2026</span></div>
-            </article>
-          </div>
+          <h3>Machine Learning</h3>
+          <p>PyTorch, scikit-learn, biomedical image analysis, segmentation metrics</p>
         </div>
-
-        <aside class="toolbox">
-          <p class="section-kicker">Toolbox</p>
-          <h2>Methods &amp; tools</h2>
-          <div class="toolbox-group">
-            <h3>Programming</h3>
-            <p>Python · SQL · R · C · Git · LaTeX · Excel</p>
-          </div>
-          <div class="toolbox-group">
-            <h3>Imaging &amp; geometry</h3>
-            <p>3D Slicer · VTK · Open3D · ImageJ · CellProfiler · CT/MRI</p>
-          </div>
-          <div class="toolbox-group">
-            <h3>Mechanics &amp; laboratory</h3>
-            <p>Abaqus/Explicit · ASTM mechanical testing · biomaterials · microscopy · CAD · additive manufacturing</p>
-          </div>
-          <div class="toolbox-group">
-            <h3>Development</h3>
-            <p>Streamlit · Trame · Microsoft Azure · scientific dashboards</p>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section section-alt" id="publications">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="section-kicker">Research output</p>
-            <h2>Publications &amp; conferences</h2>
-          </div>
-          <p>Selected peer-reviewed, conference, and manuscript work.</p>
-        </div>
-
-        <div class="publication-list">
-          <article class="publication-item">
-            <span class="publication-label">Proceedings · First author</span>
-            <h3>CAMAlyzer: A 3D Slicer extension for AI segmentation and generation of proximal femur 3D models</h3>
-            <p>IEEE 15th International Conference on Pattern Recognition Systems (ICPRS 2025) · Oral presentation.</p>
-            <a href="https://doi.org/10.1109/ICPRS66293.2025.11302867" target="_blank" rel="noreferrer">DOI ↗</a>
-          </article>
-
-          <article class="publication-item">
-            <span class="publication-label">Conference · First author</span>
-            <h3>Pipeline for MRI automatic segmentation and generation of a 3D model of the femoral head using Machine Learning</h3>
-            <p>Orthopedic Research Society 2025 Annual Meeting · Poster.</p>
-          </article>
-
-          <article class="publication-item">
-            <span class="publication-label">Conference · Second author</span>
-            <h3>A Framework for Quantifying Tibial Cartilage Deformation After Activity In Vivo via MRI</h3>
-            <p>Orthopedic Research Society 2026 Annual Meeting · Poster.</p>
-          </article>
-
-          <article class="publication-item">
-            <span class="publication-label">Manuscript · Under review · First author</span>
-            <h3>CAMalyzer: An Automated MRI-Based 3D Slicer Framework for Femoral Morphology Analysis in Femoroacetabular Impingement Syndrome</h3>
-            <p>IEEE Journal of Biomedical and Health Informatics.</p>
-          </article>
-
-          <article class="publication-item">
-            <span class="publication-label">Manuscript · Under review · Third author</span>
-            <h3>Microstructural heterogeneity of β-TCP granules regulates early stem cell adhesion and spatial organization, revealed by quantitative morphometric analysis</h3>
-            <p>ACS Biomaterials Science &amp; Engineering.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section contact-section" id="contact">
-      <div class="container contact-card">
         <div>
-          <p class="section-kicker">Contact</p>
-          <h2>Research, engineering, and collaboration</h2>
-          <p>
-            Interested in biomedical data science, computational biomechanics, medical imaging,
-            scientific software, and quantitative R&amp;D.
-          </p>
+          <h3>Medical Imaging & 3D</h3>
+          <p>3D Slicer, ImageJ, VTK, Open3D, SciPy, scikit-image, MRI, microCT, X-ray</p>
         </div>
-        <div class="contact-links">
-          <a href="mailto:benjaminrodriguezromo@gmail.com">benjaminrodriguezromo@gmail.com</a>
-          <a href="https://github.com/VenjaminRodriguezR" target="_blank" rel="noreferrer">GitHub ↗</a>
-          <a href="https://www.linkedin.com/in/benjamín-rodríguez-romo-865b48230/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        <div>
+          <h3>Biomechanics & FEM</h3>
+          <p>Abaqus, mechanical testing, biomaterials, compression, bending, tensile testing</p>
         </div>
       </div>
+    </section>
+
+        <section id="projects">
+      <h2>Featured Projects</h2>
+
+      <article class="project-card">
+        <h3>Biomedical CSV Explorer</h3>
+        <p>
+          Interactive web app for exploratory analysis of biomedical tabular datasets,
+          including missing-value analysis, correlations, PCA, Random Forest feature
+          importance, heatmaps, and customizable scatter plots.
+        </p>
+        <p><strong>Stack:</strong> Python, Streamlit, pandas, scikit-learn, Plotly</p>
+        <p>
+          <a href="https://biomedical-csv-explorer.streamlit.app/">Live demo</a> |
+          <a href="https://github.com/VenjaminRodriguezR/Biomedical-CSV-explorer">GitHub repo</a>
+        </p>
+      </article>
+    </section>
+
+
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <h3>EMPA – Swiss Federal Laboratories for Materials Science and Technology</h3>
+      <p>Intern, 2026–2027</p>
+      <ul>
+        <li>Statistical and machine learning analysis.</li>
+        <li>Finite element modeling using Abaqus.</li>
+        <li>Python programming and sample preparation.</li>
+      </ul>
+
+      <h3>Rush University Medical Center – Biomechanics Department</h3>
+      <p>Exchange Research Student, 2025</p>
+      <ul>
+        <li>Statistical shape models.</li>
+        <li>3D model alignment and analysis.</li>
+        <li>Python programming.</li>
+      </ul>
+
+      <h3>B3MAT Research Group, Bioengineering Center, UAI</h3>
+      <p>Research Assistant, 2022–2025</p>
+      <ul>
+        <li>Mechanical testing and analysis of biomaterials.</li>
+        <li>3D manufacturing and biomedical image processing.</li>
+        <li>Support for R&D projects and laboratory management.</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications & Conferences</h2>
+      <ul>
+        <li>ICPRS 2025 — CAMAlyzer: AI segmentation and 3D femur model generation. First author.</li>
+        <li>ORS 2025 — MRI automatic segmentation and 3D femoral head model generation. First author.</li>
+        <li>ORS 2026 — Tibial cartilage deformation after activity via MRI. Second author.</li>
+        <li>IEEE JBHI — CAMalyzer automated MRI-based 3D Slicer framework. First author, under review.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: benjaminrodriguezromo@gmail.com</p>
+      <p>GitHub: <a href="https://github.com/VenjaminRodriguezR">VenjaminRodriguezR</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/benjamín-rodríguez-romo-865b48230/">Benjamin Rodríguez Romo</a></p>
     </section>
   </main>
-
-  <footer class="footer">
-    <div class="container footer-inner">
-      <span>© 2026 Benjamín Rodríguez Romo</span>
-      <a href="#top">Back to top ↑</a>
-    </div>
-  </footer>
 </body>
 </html>
